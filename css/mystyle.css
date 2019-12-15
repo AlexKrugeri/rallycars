@@ -205,6 +205,13 @@
     text-align: center;
 }
 
+.readmore {
+    text-decoration: underline;
+    color: #E40520;
+    font-family: 'montserrat semibold', sans-serif;
+    font-size: 18px;
+}
+
 .preview_headline {
     color: white;
     font-size: 43px;
