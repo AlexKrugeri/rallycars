@@ -162,13 +162,102 @@
 
 .homebg {
     width: 100%;
-  height: auto;
+    height: auto;
 }
 
 .logonav {
     margin-top: 25px;
     margin-left: 10px;
 }
+
+.headline {
+    font-size: calc(100px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'bebas neue', sans-serif;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.subline {
+    font-size: calc(40px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: 'montserrat medium', sans-serif;
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+.articles_preview {
+    background-color: #005597;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.preview_containers {
+    width: 320px;
+    text-align: center;
+}
+
+.left_image {
+    padding: 16px 24px 16px 24px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.preview_headline {
+    color: white;
+    font-size: 43px;
+    font-family: 'bebas neue', sans-serif;
+}
+
+.first_article {
+    text-decoration: none;
+}
+
+.preview_txt {
+    margin-bottom: 80px;
+    font-size: 18px;
+    font-family: 'montserrat light', sans-serif;
+    color: white;
+}
+
+.center_image {
+    padding: 16px 24px 16px 24px;
+    max-width: 320px;
+    text-align: center;
+}
+
+.right_image {
+    padding: 16px 24px 16px 24px;
+    max-width: 320px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -272,6 +361,3 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
-
