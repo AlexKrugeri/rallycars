@@ -162,13 +162,54 @@
 
 .homebg {
     width: 100%;
-  height: auto;
+    height: auto;
 }
 
 .logonav {
     margin-top: 25px;
     margin-left: 10px;
 }
+
+
+
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'bebas neue', sans-serif;
+    font-size: 45px;
+}
+
+.about_text {
+    font-size: 20px;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    text-align: justify;
+}
+
+.weaving_loom {
+    margin-top: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.credit {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -272,6 +313,3 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
-
-
