@@ -181,7 +181,7 @@
 
 h1 {
     font-family: 'bebas neue', sans-serif;
-    font-size: calc(80px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(60px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
     text-align: center;
     margin-top: 100px;
 }
@@ -197,9 +197,9 @@ h2 {
 
 .article_text {
     font-family: 'montserrat light', sans-serif;
-    font-size: 20px;
-    margin-left: 18vw;
-    margin-right: 18vw;
+    font-size: 16px;
+    margin-left: 15vw;
+    margin-right: 15vw;
     text-align: justify;
     margin-bottom: 30px;
 }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Suzuki | Rally Cars</title>
+    <meta name="description" content="Example description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contacts.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header_container">
+        <nav class="navigation_container">
+            <a href="index.html"><img src="img/white%20lettering.png" class="logonav" alt="" width="180px" /></a>
+
+
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+            <div class="menu navbar">
+                <div class="dropdown">
+                    <a href="index.html" class="nav_link">HOME</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="rallycars.html" class="nav_link">Rally Cars</a>
+                </div>
+
+                <div class="dropdown">
+                    <a href="about.html" class="nav_link">About</a>
+                    <div class="dropdown-content">
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <a href="contacts.html" class="nav_link">Contacts</a>
+                </div>
+            </div>
+
+            <ul class="mobilemenu">
+                <li><a href="index.html" class="nav_link">HOME</a>
+                </li>
+                <li><a href="rallycars.html" class="nav_link">Rally Cars</a>
+                </li>
+                <li><a href="about.html" class="nav_link">About</a></li>
+                <li><a href="contacts.html" class="nav_link">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+
+        <div class="container">
+            <form id="contact" action="" method="post">
+                <h3>Get in touch with Suzuki</h3>
+                <h4>Contact us for any information or questions</h4>
+                <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Rally Cars | Alex Hanghiuc © 2019</p>
+    </footer>
+
+</body></html>
